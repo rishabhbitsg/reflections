@@ -20,3 +20,12 @@ which files do we want to commit.
 Before commiting we can run the command "git diff --staged" and check the difference
 between the files in staging area and the most recent commit. Now we can see the result
 and make sure that we are adding only one logical change in this commit.
+
+
+
+4. What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+This can come handy when we want to add a new experimental feature but its not just
+yet part of our main project. So we can create a branch and work on it on a separate
+branch. And whenever I want to get to my main project I can easily do so by checking
+out to the master branch.
