@@ -53,6 +53,8 @@ tell us the commits and the files that were changed in each commit. Now if we
 know which versions we want to compare, we can use "git diff id1 id2" to see what were
 the changes made to the files in the repository to get from version with id1 to version with id2.
 
+
+
 6. How might using version control make you more confident to make changes that could break something?
 Now I can experimetn with my code to see what changes can I make and when I think things 
 have got out of control I can go back to any previous commit. So it makes me confident
