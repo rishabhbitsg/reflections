@@ -29,3 +29,10 @@ This can come handy when we want to add a new experimental feature but its not j
 yet part of our main project. So we can create a branch and work on it on a separate
 branch. And whenever I want to get to my main project I can easily do so by checking
 out to the master branch.
+
+
+
+5. How do the diagrams help you visualize the branch structure?
+It helps in determining reachability, i.e., if we are on a particular commit
+which are the commits that we can get to from there. It also helps us in 
+finding any unreachable commits.
