@@ -3,6 +3,8 @@ It creates a hidden directory ".git" inside our current directory. It is this hi
 directory that makes a directory repository. It will contain all the data about 
 all the commits we will make and stuff like that.
 
+
+
 2. How is the staging area different from the working directory and the repository? What v
 alue do you think it offers?
 Working directory is the directory where we created a repository using "git init". It
@@ -12,3 +14,9 @@ certain files. The staging area is and intermediate area between the working dir
 and the repository. It allows us to add one logical change per commit. This means that
 we do not need to commit changes to all the files in the repository. We can choose 
 which files do we want to commit.
+
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+Before commiting we can run the command "git diff --staged" and check the difference
+between the files in staging area and the most recent commit. Now we can see the result
+and make sure that we are adding only one logical change in this commit.
