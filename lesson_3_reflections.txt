@@ -30,3 +30,11 @@ locally?
 Due to this it is possible to run the git fetch command to update the position
 of origin/master branch and then we can merge master and origin/master and
 resolve any conflicts. 
+
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+Without using Git or GitHub, I need to collaborate by organizing a meeting with my colleagues to discuss and probably work on 1 single computer together to alter the code.
+Git, or GitHub to be more precise, makes collaboration much easier, 
+as I can share my code and receive feedback without having face-to-face conversations,     instead, we could work on the same project on the GitHub platform and make comments and contributions through pull request, this could result in faster development process
+yet, these feedback conversations are less efficient as they are not real-time, which could be slightly frustrating
