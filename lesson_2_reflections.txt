@@ -45,3 +45,8 @@ branches are reachable from this new commit. The name of this branch is decided 
 which branch we are checked out to while doing the merge. 
 
 
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When there are no conflicts between any files between two branches that we are merging,
+git merges them automatically. So, we don't have to go line by line to see what to 
+keep and what not to. But when there is a conflict we will have to merge manually. This
+way we are merging efficiently when there is no risk involved.
