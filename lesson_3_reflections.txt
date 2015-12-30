@@ -3,3 +3,9 @@ When I want to collaborate with other people who don't work on the same system a
 I do.
 
 
+2. Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+Suppose two people are working on the same file and one has finished and other is still
+working. If Git automatically pull from remote then the person who was still working 
+on the file will find that his file has been modified. This is not something he would 
+want. So in such cases he will pull when he thinks he is done with his work.
