@@ -22,3 +22,11 @@ the remote. Either we created it or as a contributor.
 Branches are just label we give to commits. We create branches when we want to work
 on a new feature or something experimental. Branches are present within a single
 repository.
+
+
+
+4. What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+Due to this it is possible to run the git fetch command to update the position
+of origin/master branch and then we can merge master and origin/master and
+resolve any conflicts. 
