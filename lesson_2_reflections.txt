@@ -36,3 +36,12 @@ out to the master branch.
 It helps in determining reachability, i.e., if we are on a particular commit
 which are the commits that we can get to from there. It also helps us in 
 finding any unreachable commits.
+
+
+6. What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+When we merge two branches we make a new commit and all the previous commits of both
+branches are reachable from this new commit. The name of this branch is decided by
+which branch we are checked out to while doing the merge. 
+
+
